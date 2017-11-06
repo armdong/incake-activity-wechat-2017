@@ -1,0 +1,58 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    .content-banner{
+       position: relative;
+       a{
+            display: block;
+            width: 19%;
+            height:38px;
+            background: url("../imgs/ali-valentine-day/btn.png") no-repeat;
+            background-size: 100%;
+            animation: btn 3s infinite;
+        }
+        .btn-one{
+            position: absolute;
+            right: 18%;
+            top: 25.5%;
+        }
+        .btn-two{
+            position: absolute;
+            left: 10%;
+            top: 50.5%;
+        }
+        .btn-three{
+            position: absolute;
+            right: 15%;
+            top: 72.2%;
+        }
+        .rule{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            dl{
+               dt{
+                   padding-top: 40px;
+                   font-size: 20px;
+                   font-weight: bold;
+                   text-align: center;
+               }
+               dd{
+                   margin:  10px 0;
+                   font-size: 18px;
+                   text-align: center;
+               }
+               dd:last-child{
+                   padding-bottom: 30px;
+               }
+            }
+        }
+    }
+
+}
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

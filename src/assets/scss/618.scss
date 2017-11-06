@@ -1,0 +1,76 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    .content-banner{
+       position: relative;  
+       a{
+            display: block;
+            width: 19%;
+            height: 60px;
+            background: url("../imgs/618/buy.png") no-repeat;
+            background-size: 100%;
+        }
+        .btn-buy01{
+            position: absolute;
+            left: 24%;
+            top: 29.7%;
+        }
+        .btn-buy02{
+            position: absolute;
+            right: 17.5%;
+            top: 37.7%;
+        }
+        .btn-buy03{
+            position: absolute;
+            left: 24%;
+            top: 48.7%;
+        }
+        .btn-buy04{
+            position: absolute;
+            right: 17.5%;
+            top: 56.7%;
+        }
+        .btn-buy05{
+            position: absolute;
+            left: 24%;
+            top: 67.7%;
+        }
+        .btn-buy06{
+            position: absolute;
+            right: 17.5%;
+            top: 77%;
+        }
+        .btn-buy07{
+            position: absolute;
+            left: 17%;
+            top: 87%;
+        }
+        .btn-buy08{
+            position: absolute;
+            right: 17.5%;
+            top: 96.7%;
+        }
+    }
+    
+}
+.rule{
+    width: 100%;
+    background: #9fc1f1;
+    color: #fff;
+    dl{
+       margin-left: 20px;
+       dt{
+           padding-top: 40px;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       dd{
+           margin:  10px 0;
+           font-size: 18px;
+       }
+       dd:last-child{
+           padding-bottom: 60px;
+       }
+    }
+}

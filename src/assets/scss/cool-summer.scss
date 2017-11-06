@@ -1,0 +1,288 @@
+#layout{
+    max-width: 750px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    .header{
+        position: relative;
+        width: 100%;
+        img{
+            width: 178px;
+            height: 70px;
+            padding: 35px 0 35px 55px;
+        }
+        button{
+            display: block;
+            position: absolute;
+            right: 55px;
+            top: 45px;
+            width: 180px;
+            height: 50px;
+            border: 0;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;/*px*/
+            color: #fff;
+            border-radius: 10px;
+            background-color: #1494b0;
+            span{
+                display:block;
+                animation: official 3s infinite;
+            }
+        }
+    }
+    .content{
+        width: 100%;
+        }
+        .rule{
+            background-color: #bfe5ed;
+            dl{
+                padding: 35px 0 35px 30px;
+                color: #1494b0;
+                dt{
+                    font-size: 24px;/*px*/
+                    padding-bottom: 15px;
+                    font-weight: bold;
+                }
+                dd{
+                    font-size: 20px;/*px*/
+                    margin: 10px 0;
+                }
+            }
+        }
+        .frm-register{
+            background-color: #1494b0;
+            padding: 30px 0;
+            .sec-header{
+                .sec-title{
+                    padding-top: 40px;
+                    padding-bottom: 30px;
+                    font-size: 35px; /*px*/
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+            .sec-body{
+                width: 75%;
+                margin: 0 auto;
+                li{
+                    margin-bottom: 30px;
+                    position: relative;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    font-size: 28px;/*px*/
+                    input{
+                        display: block;
+                        height: 77px;
+                        line-height: 77px;
+                        text-indent: 1em;
+                        -webkit-appearance: none;
+                        border: 1px solid #007994;
+                        outline: none;
+
+                    }
+                    .txt-mobile{
+                        float: left;
+                        width: 100%;
+                        border-radius: 5px 0 0 5px;
+                    }
+                    #btn-patterning{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 40%;
+                        height: 77px;
+                    }
+                    #btn-vcode{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 40%;
+                        height: 77px;
+                        line-height: 77px;
+                        text-align: center;
+                        border: 1px solid #007994;
+                        border-radius: 0 5px 5px 0;
+                        color: #fff;
+                        background-color: #007994;
+                    }
+                    #btn-vcode.active{
+                        background-color: #99807f;
+                        border-color: #99807f;
+                    }
+                    .txt-vcode,.txt-patterning{
+                         width: 60%;
+                    }
+                }
+                #btn-register{
+                    display: block;
+                    width: 100%;
+                    height: 77px;
+                    line-height: 77px;
+                    text-align: center;
+                    border-radius: 10px;
+                    background-color: #007994;
+                    font-size: 35px; /*px*/
+                    color: #fff;
+                }
+            }
+        }
+    #float-footer{
+        position: fixed;
+        bottom: 0;
+        max-width: 750px;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    #mask-result{
+        display: none;
+        position: fixed;
+        top: 0;
+        margin: 0 auto;
+        max-width: 750px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,0.7);
+        .mask{
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -220px;
+            margin-top: -141px;
+            width: 440px;
+            height: 282px;
+            border: 1px solid #007994;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            >span{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                display: block;
+                width: 42px;
+                height: 42px;
+                background: url(../imgs/cool-summer/delete.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 9999;
+            }
+            div{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 440px;
+                height: 222px;
+                background: url(../imgs/cool-summer/succeed.png);
+                background-repeat: no-repeat;
+                background-size: 86px 57px;
+                background-position: 40px 80px;
+                p{
+                    position: absolute;
+                    left: 150px;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 60%;
+                    margin: auto;
+                    display: table;
+                    color: #505050;
+                    font-size: 22px;
+                }
+            }
+            button{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                height: 60px;
+                border: 0;
+                font-size: 18px;
+                background-color: #007994;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+        }
+        .result{
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -220px;
+            margin-top: -141px;
+            width: 440px;
+            height: 282px;
+            border: 1px solid #007994;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            >span{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                display: block;
+                width: 42px;
+                height: 42px;
+                background: url(../imgs/cool-summer/delete.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 9999;
+            }
+            div{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 440px;
+                height: 222px;
+                p{
+                    position: absolute;
+                    left: 30px;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 90%;
+                    margin: auto;
+                    display: table;
+                    color: #505050;
+                    font-size: 22px;
+                }
+            }
+            .first{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: block;
+                width: 50%;
+                height: 60px;
+                font-size: 18px;
+                background-color: #1494b0;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+            .last{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                display: block;
+                width: 50%;
+                height: 60px;
+                font-size: 18px;
+                background-color: #007994;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+        }
+    }
+}
+@keyframes official{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.5); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

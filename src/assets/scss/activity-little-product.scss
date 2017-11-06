@@ -1,0 +1,58 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    .content-banner{
+       position: relative;
+       a{
+            display: block;
+            width: 36%;
+            height: 70px;
+            background: url("../imgs/activity-little-product/btn.png") no-repeat;
+            background-size: 100%;
+            animation: btn 3s infinite;
+        }
+        .btn-fx{
+            position: absolute;
+            left: 18%;
+            top: 43%;
+        }
+        .btn-hs{
+            position: absolute;
+            right: 17%;
+            bottom: 35%;
+        }
+        .btn-nm{
+            position: absolute;
+            left: 21%;
+            bottom: 13.5%;
+        }
+    }
+
+}
+.rule{
+    width: 100%;
+    background: #ffc0b8;
+    dl{
+       width: 80%;
+       margin: 0 auto;
+       dt{
+           text-align: center;
+           padding-top: 40px;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       dd{
+           margin:  10px 0;
+           font-size: 18px;
+       }
+       dd:last-child{
+           padding-bottom: 60px;
+       }
+    }
+}
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

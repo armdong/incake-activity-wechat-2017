@@ -1,0 +1,17 @@
+.banner {
+  width: 100%;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    bottom: 19%;
+    left: 50%;
+    width: 35%;
+    transform: translateX(-50%);
+  }
+}

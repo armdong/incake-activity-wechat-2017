@@ -1,0 +1,77 @@
+.content {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    vertical-align: top;
+    border: none;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .prod {
+    position: relative;
+    width: 100%;
+
+    .btn {
+      display: block;
+      width: 28%;
+      position: absolute;
+      animation: ani 4s ease-in-out infinite;
+    }
+
+    &.prod-01 .btn {
+      top: 100px;
+      right: 16%;
+    }
+
+    &.prod-02 .btn {
+      top: 130px;
+      left: 22%;
+    }
+  }
+}
+
+.rule {
+  width: 100%;
+  background-color: #e3c2a6;
+  color: #8c551f;
+
+  dl {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    dt {
+      font-size: 28px;
+      text-align: center;
+      line-height: 70px;
+    }
+
+    dd {
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+}
+
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

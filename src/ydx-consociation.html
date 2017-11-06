@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<!-- flexible.js 建议做内联处理，请勿移动位置 -->
+		<script src="assets/plugins/lib-flexible/flexible.js"></script>
+		<link rel="apple-touch-icon" href="favicon.png">
+		<link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+	    <title>易点鲜</title>
+	    <link rel="stylesheet" href="assets/css/normalize.css" />
+	    <link rel="stylesheet" href="assets/css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="assets/css/fuzhou-didi-consociation.css"/>
+        <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+	<div id="layout">
+		<img src="assets/imgs/fuzhou-didi-consociatio/ydx.png"/>
+		<ul id="cake" class="clearfix">
+		</ul>
+		<script id="tplCake" type="text/html">
+			{{each list as item i}}
+			<li>
+				<a href="javascript:;"><img src="{{item.linkimg}}"/></a>
+				<div>
+					<p>{{item.name}}</p>
+					<p>{{item.en}}</p>
+					<span class="buy"></span>
+				</div>
+			</li>
+			{{/each}}
+		</script>
+		<a class="official" href="javascript:;"><img src="assets/imgs/fuzhou-didi-consociatio/official.jpg"/></a>
+		<div class="code">
+			<a href="javascript:;">
+				<img src="assets/imgs/fuzhou-didi-consociatio/qr-code.png"/>
+			</a>
+			<p>福州二维码</p>
+		</div>
+		<div class="signin-shade">
+			<div class="signin">
+				<p>登录/注册</p>
+				<ul>
+					<li><input type="text" placeholder="请输入手机号" /><a href="javascript:;">获取短信验证码</a></li>
+					<li class="active"><input type="text"placeholder="请输入验证码" /></li>
+				</ul>
+				<a class="confirm" href="javascript:;">确认</a>
+				<span class="close"></span>
+			</div>
+		</div>
+	</div>
+	<script src="assets/plugins/LABjs/LAB.min.js"></script>
+	<script>
+		$LAB
+			.script('assets/plugins/jquery/jquery-3.1.1.min.js').wait()
+			.script('assets/plugins/artTemplate/dist/template.js').wait()
+			.script('assets/js/fuzhou-didi-consociatio.js');
+	</script>
+</body>
+
+</html>

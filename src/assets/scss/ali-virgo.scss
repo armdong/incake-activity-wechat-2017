@@ -1,0 +1,65 @@
+.content {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    vertical-align: top;
+    border: none;
+  }
+
+  .product {
+    position: relative;
+    width: 100%;
+
+    .btn {
+      display: block;
+      position: absolute;
+      bottom: 80px;
+      left: 34%;
+      width: 32%;
+      animation: ani 4s ease-in-out infinite;
+    }
+  }
+}
+
+.rule {
+  width: 100%;
+  background-color: #f57980;
+  color: #920104;
+
+  dl {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    dt {
+      font-size: 30px;
+      text-align: center;
+      line-height: 70px;
+    }
+
+    dd {
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+}
+
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

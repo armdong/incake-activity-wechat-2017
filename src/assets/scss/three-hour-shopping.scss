@@ -1,0 +1,52 @@
+.content{
+    width: 100%;
+    height: auto;
+    .content-banner{
+        position: relative;
+        width: 100%;
+    }
+    .rule{
+        background-color: #fe57b1;
+        dl{
+            padding: 35px 0 35px 30px;
+            color: #fff;
+            dt{
+                font-size: 24px;/*px*/
+                padding-bottom: 15px;
+            }
+            dd{
+                font-size: 20px;/*px*/
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+.layer{
+    max-width: 750px;
+    width: 100%;
+    margin:  0 auto;
+}
+.iosselect-header{
+    position: relative;
+}
+
+.sure{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.ios-select-widget-box header.iosselect-header a{
+    color: #ff792b;
+}
+.iosselect-header h2{
+    position: absolute;
+    left: 300px;
+}
+.ios-select-widget-box .cover-area1{
+    top: 155px;
+}
+.ios-select-widget-box .cover-area2{
+    top: 195px;
+}

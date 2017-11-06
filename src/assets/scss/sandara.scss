@@ -1,0 +1,66 @@
+.content {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .btn-buy {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+    width: 30%;
+    animation: ani 4s ease-in-out infinite;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.rule {
+  width: 100%;
+  background-color: #f4d4dd;
+  padding: 50px 0;
+
+  dl {
+    width: 90%;
+    margin: 0 auto;
+    color: #ba0001;
+  }
+
+  dt {
+    font-size: 26px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  dd {
+    font-size: 22px; /* px */
+    line-height: 40px;
+  }
+}
+
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

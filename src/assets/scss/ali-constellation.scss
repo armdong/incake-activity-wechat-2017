@@ -1,0 +1,80 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    .banner{
+       position: relative;
+       a{
+            display: block;
+            width: 167px;
+            height: 47px;
+            background: url(../imgs/ali-constellation/btn.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: discount 3s infinite;
+        }
+        .btn01{
+            position: absolute;
+            right: 7.5%;
+            top: 29%;
+        }
+        .btn02{
+            position: absolute;
+            right: 23%;
+            top: 38.5%;
+        }
+        .btn03{
+            position: absolute;
+            left: 20%;
+            top: 55.5%;
+        }
+        .btn04{
+            position: absolute;
+            right: 23%;
+            top: 73.5%;
+        }
+        .btn05{
+            position: absolute;
+            left: 19%;
+            bottom: 6%;
+        }
+    }
+}
+.rule{
+    max-width: 750px;
+    width: 100%;
+    color: #727171;
+    background-color: #dcdcdc;
+    overflow: hidden;
+    dl{
+       position: relative;
+       margin: 0 auto;
+
+       dt{
+           padding-top: 40px;
+           font-size: 24px; /*px*/
+           font-weight: bold;
+           text-align: center;
+       }
+       dd{
+           margin:  10px 0;
+           font-size: 20px;/*px*/
+           text-align: center;
+       }
+       .alibglogo{
+           display: block;
+           width: 100%;
+           height: 79px;
+           background: url("../imgs/ali-cancer/ali-logo.png") no-repeat;
+           background-size: 100px 79px;
+           background-position: 50% 0;
+           margin-top: 20px;
+           padding-bottom: 20px;
+       }
+    }
+}
+@keyframes discount{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

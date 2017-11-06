@@ -1,0 +1,78 @@
+.content {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .btn-buy {
+    display: block;
+    position: absolute;
+    bottom: 90px;
+    left: 30%;
+    width: 50%;
+    animation: ani 4s ease-in-out infinite;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.rule {
+  position: relative;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  dl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #4c1f00;
+  }
+
+  dt {
+    padding: 20px 0;
+    font-size: 26px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  dd {
+    font-size: 22px; /* px */
+    line-height: 40px;
+    margin-left: 152px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

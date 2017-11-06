@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<!-- flexible.js 建议做内联处理，请勿移动位置 -->
+		<script src="assets/plugins/lib-flexible/flexible.js"></script>
+		<link rel="apple-touch-icon" href="favicon.png">
+		<link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+	    <title>三小时送</title>
+	    <link rel="stylesheet" href="assets/css/normalize.css" />
+	    <link rel="stylesheet" type="text/css" href="assets/plugins/iosselect/iosSelect.css"/>
+	    <link rel="stylesheet" href="assets/css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="assets/css/three-hour-shopping.css"/>
+        <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+	<div id="layout">
+		<header class="clearfix">
+            <img class="logo" src="assets/imgs/logo.png" />
+	        <a class="link" href="javascript:;">返回首页</a>
+	    </header>
+	    <div class="content">
+	    	<div class="content-banner">
+                <a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake01.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake02.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake03.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake04.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake05.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake06.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake07.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake08.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake09.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake10.png" alt=""></a>
+	    		<img src="assets/imgs/three-hour-shopping/time.png"/>
+	    	</div>
+	    	<div class="rule">
+	    		<dl>
+	    			<dt>活动规则</dt>
+	    			<dd>1.本服务仅限在线支付，不可使用代金卡优惠券，不与其他优惠共享。</dd>
+	    			<dd>2.配送范围：上海A20外环以内</dd>
+	    		</dl>
+	    	</div>
+	    </div>
+	    <footer>
+	        <img src="assets/imgs/QrCode_b.png" />
+	        <p>微信号：InCake_2012</p>
+	        <p class="phone">400-921-5757</p>
+	    </footer>
+	</div>
+	<script src="assets/plugins/LABjs/LAB.min.js"></script>
+	<script>
+		$LAB
+			.script('assets/plugins/jquery/jquery-3.1.1.min.js').wait()
+		    .script('assets/plugins/iosselect/adaptive.js').wait()
+			.script('assets/plugins/iosselect/iosSelect.js').wait()
+			.script('assets/plugins/iosselect/iscroll.js').wait()
+			.script('assets/js/three-hour-shopping.js');
+	</script>
+</body>
+
+</html>

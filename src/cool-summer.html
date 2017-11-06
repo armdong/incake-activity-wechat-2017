@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<!-- flexible.js 建议做内联处理，请勿移动位置 -->
+		<script src="assets/plugins/lib-flexible/flexible.js"></script>
+		<link rel="apple-touch-icon" href="favicon.png">
+		<link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+	    <title>清甜一夏</title>
+	    <link rel="stylesheet" href="assets/css/normalize.css" />
+	    <link rel="stylesheet" href="assets/css/common.css"/>
+	    <link rel="stylesheet" href="assets/css/cool-summer.css"/>
+        <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+	<div id="layout">
+		<div class="header">
+            <img src="assets/imgs/cool-summer/logo.png" alt="">
+            <button  class="go-official"><span>进入官网</span></button>
+		</div>
+	    <div class="content">
+	    	<div class="content-banner">
+                <img src="assets/imgs/cool-summer/banner.png" alt="">
+	    	</div>
+            <div class="content-btn">
+                <img class="btn" src="assets/imgs/cool-summer/btn01.png" alt="">
+                <img class="btn" src="assets/imgs/cool-summer/btn02.png" alt="">
+                <img class="btn" src="assets/imgs/cool-summer/btn03.png" alt="">
+                <img class="btn" src="assets/imgs/cool-summer/btn04.png" alt="">
+                <img class="btn" src="assets/imgs/cool-summer/btn05.png" alt="">
+                <img class="btn" src="assets/imgs/cool-summer/btn06.png" alt="">
+            </div>
+	    	<div class="rule">
+	    		<dl>
+					<dt>活动规则</dt>
+					<dd>1.注册成功后，即可领取90元新用户专享优惠券。</dd>
+					<dd>2.优惠券券使用规则：90元新用户专享蛋糕券，可用于订购INCAKE官网蛋糕：无添加蔗糖，经典奶香，女王芝士，浓情巧克力，至爱红丝绒，草莓物语1磅产品并抵扣90元，</dd>
+					<dd>3.本券不可叠加，不与其他优惠共享。</dd>
+					<dd>4.优惠券有效期领取日起一个月。</dd>
+					<dd>5.活动城市仅限杭州，北京。</dd>
+				</dl>
+	    	</div>
+            <div class="frm-register">
+                <div class="sec-header">
+                    <p class="sec-title">新用户首单立减90元</p>
+                </div>
+                <div class="sec-body">
+                    <ul class="frm">
+                        <li class="clearfix">
+                            <input type="text" class="txt-mobile" placeholder="请输入手机号">
+
+                        </li>
+                        <li class="clearfix">
+                            <input type="text" class="txt-patterning" placeholder="请输入图形验证码">
+                            <a href="javasript:;" id="btn-patterning">
+                                <img src="assets/imgs/618/buy.png" alt="">
+                            </a>
+                        </li>
+                        <li class="clearfix">
+                            <input type="text" class="txt-vcode" placeholder="请输入验证码">
+                            <a href="javasript:;" id="btn-vcode">获取验证码</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="btn-register">确&nbsp;&nbsp;定</a>
+                </div>
+            </div>
+	    </div>
+	    <footer>
+	        <img src="assets/imgs/QrCode_b.png" />
+	        <p>微信号：InCake_2012</p>
+	        <p class="phone">400-921-5757</p>
+	    </footer>
+        <!-- 悬浮底部 begin -->
+        <div id="float-footer">
+            <img src="assets/imgs/cool-summer/btn_footer.png" alt="">
+        </div>
+        <!-- 悬浮底部 end -->
+        <div id="mask-result">
+            <div class="mask">
+                <span class="delete"></span>
+                <div>
+                    <p>登录名为您的手机号，密码为手机号后六位。</p>
+                </div>
+                <button>确定</button>
+            </div>
+            <div class="result">
+                <span class="delete"></span>
+                <div>
+                    <p>新用户注册就可以领取优惠券，您确定要离开吗？</p>
+                </div>
+                <a href="javascript:;" class="first">先注册</a>
+                <a href="javascript:;" class="last">确认离开</a>
+            </div>
+        </div>
+	</div>
+</body>
+    <script src='assets/plugins/LABjs/LAB.min.js'></script>
+    <script>
+        $LAB
+            .script('assets/plugins/jquery/jquery-3.1.1.min.js').wait()
+            .script('assets/plugins/underscore/underscore-min.js').wait()
+            .script('assets/js/cool-summer.js');
+    </script>
+</html>

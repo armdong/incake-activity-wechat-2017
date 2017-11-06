@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    width: 100%;
+    font-family: "Arial","微软雅黑";
+    font-size: 12px;/*no*/
+}
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+}
+
+body,
+dd,
+dl,
+dt,
+h1,
+h2,
+h3,
+input,
+p,
+select,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#layout {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+     background: #e9546b;
+  }
+header .logo {
+    width: 127px;/*px*/
+    height: 40px; /*px*/
+    padding: 18px 0 18px 24px; /*px*/
+}
+header .link {
+    position: absolute;
+    top: 0;
+    right: 24px;/*px*/
+    bottom: 0;
+    text-align: right;
+      display: table;
+      margin: auto;
+     font-size: 22px;/*px*/
+     color: #fff; }
+.content {
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+}
+
+footer {
+    padding: 6px 0 2px;
+    text-align: center;
+    background: #fff;
+}
+
+footer img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 20px;  /*px*/
+}
+
+footer p.phone {
+    font-size: 20px; /*px*/
+    padding-bottom: 20px;
+}

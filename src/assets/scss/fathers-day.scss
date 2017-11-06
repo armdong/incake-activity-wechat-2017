@@ -1,0 +1,57 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    .content-banner{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: #1e1e1e;
+        .price{
+            position: absolute;
+            right: 150px;
+            top: 550px;
+            width: 126px;
+            height: 119px;
+        }
+    }
+    .rule{
+        position: relative;
+        width: 100%;
+        height: auto;
+        a{
+            position: absolute;
+            left: 250px;
+            top: 10px;
+            display: block;
+            width: 273px;
+            height: 70px;
+            animation: btn 3s infinite;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        dl{
+            position: absolute;
+            left: 50px;
+            top: 300px;
+            color: #fff;
+           dt{
+               font-size: 30px;
+               padding-bottom: 20px;
+               text-align: center;
+           }
+            dd{
+                font-size: 22px;
+                line-height: 45px;
+            }
+        }
+    }
+}
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

@@ -1,0 +1,54 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    .content-banner{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        a{
+            display: block;
+            position: absolute;
+            left: 40%;
+            top: 75%;
+            width: 20%;
+            height: 160px;
+            animation: discount 3s infinite;
+        }
+    }
+
+    .rule{
+        width: 100%;
+        height: 100%;
+        background: #a23434;
+        color: #fff;
+        dl{
+            dt{
+                text-align: center;
+                padding: 10px 0;
+                font-size: 16px; /*px*/
+            }
+            dd{
+                font-size: 14px;  /*px*/
+                margin: 10px 0;
+                width: 90%;
+                margin: 0 auto;
+                text-align: justify;
+                line-height: 22px;  /*px*/
+                span{
+                    font-weight: bold;
+                }
+            }
+            dd:last-child{
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+@keyframes discount{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}
