@@ -1,0 +1,107 @@
+.page-anniversary {
+  position: relative;
+  width: 750px;
+  background-color: #ffe5e9;
+  overflow: hidden;
+
+  .banner {
+    width: 750px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    width: 750px;
+
+    .description {
+      width: 750px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .cakes {
+      width: 630px;
+      margin: 0 auto;
+      padding-bottom: 138px;
+
+      .cake {
+        position: relative;
+        z-index: 9;
+        width: 258px;
+        margin-top: 96px;
+
+        &.fl {
+          float: left;
+        }
+        &.fr {
+          float: right;
+        }
+
+        .img {
+          width: 258px;
+          height: 258px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .name {
+          width: 100%;
+          margin-top: 30px;
+          text-align: center;
+          color: #e9546b;
+          
+          .cn {
+            font-size: 30px; /* px */
+            line-height: 38px;
+          }
+
+          .en {
+            font-size: 14px; /* px */
+            line-height: 20px;
+          }
+        }
+
+        .btn-buy {
+          display: block;
+          width: 200px;
+          height: 60px;
+          margin: 14px auto 0;
+          border-radius: 30px;
+          background-color: #6bc1f3;
+          color: #fff;
+          font-size: 30px;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .rules {
+    width: 750;
+    padding: 40px;
+    background-color: #ffccd3;
+    
+    dl {
+      width: 690px;
+      margin: 0 auto;
+      color: #ac3662;
+
+      dt {
+        font-size: 28px; /* px */
+        line-height: 60px;
+        text-align: center;
+      }
+      dd {
+        font-size: 20px; /* px */
+        line-height: 40px;
+      }
+    }
+  }
+}
