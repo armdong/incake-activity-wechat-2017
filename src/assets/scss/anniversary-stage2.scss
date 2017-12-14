@@ -1,0 +1,75 @@
+.page-anniversary {
+  position: relative;
+  width: 750px;
+  background-color: #ffe5e9;
+  overflow: hidden;
+
+  .banner {
+    width: 750px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    width: 750px;
+
+    .description {
+      width: 750px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .cakes {
+      position: relative;
+      width: 750px;
+
+      img {
+        width: 100%;
+      }
+
+      .btn-buy {
+        display: block;
+        position: absolute;
+        bottom: 88px;
+        left: 50%;
+        z-index: 9;
+        width: 158px;
+        height: 158px;
+        transform: translateX(-50%);
+        background-color: #ffde5c;
+        color: #e9546b;
+        font-size: 32px; /* px */
+        line-height: 158px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  .rules {
+    width: 750;
+    padding: 40px;
+    background-color: #bf3f55;
+    
+    dl {
+      width: 690px;
+      margin: 0 auto;
+      color: #fec9c9;
+
+      dt {
+        font-size: 28px; /* px */
+        line-height: 60px;
+        text-align: center;
+      }
+      dd {
+        font-size: 20px; /* px */
+        line-height: 40px;
+      }
+    }
+  }
+}
