@@ -1,0 +1,146 @@
+.page-xmas {
+  width: 100%;
+  background-color: #c42101;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    border: none;
+    vertical-align: top;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+
+    .btn {
+      display: block;
+      position: absolute;
+      z-index: 99;
+      transform-origin: center center;
+      -webkit-animation: pulse 2s ease-in-out infinite;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    .desc {
+      position: relative;
+      width: 100%;
+
+      .btn-santa {
+        bottom: 102px;
+        left: 135px;
+        width: 139px;
+        height: 38px;
+      }
+    }
+
+    .discounts {
+      width: 100%;
+      padding-bottom: 90px;
+
+      .discount {
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+
+        .btn-buy {
+          width: 161px;
+          height: 43px;
+
+          &.btn-left {
+            left: 102px;
+          }
+          &.btn-right {
+            right: 102px;
+          }
+        }
+      }
+
+      .discount-52 {
+        .btn-mango {
+          top: 346px;
+        }
+        .btn-classic {
+          top: 650px;
+        }
+        .btn-lolipop {
+          bottom: 70px;
+        }
+      }
+
+      .discount-58 {
+        .btn-velvet {
+          top: 346px;
+        }
+        .btn-margaret {
+          top: 650px;
+        }
+        .btn-2in1 {
+          bottom: 430px;
+        }
+        .btn-bear {
+          bottom: 110px;
+        }
+      }
+
+      .discount-59 {
+        .btn-rainbow {
+          bottom: 65px;
+        }
+      }
+    }
+  }
+
+  .rules {
+    width: 100%;
+    background-color: #620300;
+
+    dl {
+      width: 620px;
+      margin: 0 auto;
+      padding: 50px 0;
+      color: #fecece;
+    }
+
+    dt {
+      padding-bottom: 40px;
+      font-size: 26px; /* px */
+      line-height: 30px;
+      text-align: center;
+    }
+
+    dd {
+      font-size: 18px; /* px */
+      line-height: 40px;
+    }
+  }
+}
+
+@keyframes pulse{
+
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes pulse{
+
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
